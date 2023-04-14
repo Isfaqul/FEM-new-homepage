@@ -118,6 +118,7 @@ nav {
   padding: 3em;
   background-color: hsl(36 100% 99% / 80%);
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 [data-menu-show] {
