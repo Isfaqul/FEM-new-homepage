@@ -108,7 +108,7 @@ nav {
 .nav-container {
   width: 65%;
   position: absolute;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
@@ -310,6 +310,7 @@ nav {
     height: auto;
   }
   .nav-container {
+    display: flex;
     flex-direction: row;
     position: relative;
     transform: none;
