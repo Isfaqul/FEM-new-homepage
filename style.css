@@ -116,11 +116,22 @@ nav {
   right: 0;
   transform: translateX(100%);
   padding: 3em;
-  background-color: var(--main-bg);
+  background-color: hsl(36 100% 99% / 80%);
+  backdrop-filter: blur(15px);
 }
 
 [data-menu-show] {
   transform: translateX(0);
+  animation: slide-in 300ms;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .nav-container li {
